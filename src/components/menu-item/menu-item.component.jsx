@@ -3,10 +3,11 @@ import { withRouter } from 'react-router-dom';
 
 import './menu-item.styles.scss';
 
-const MenuItem = ({ title, imageUrl, history, linkUrl }) => (
+const MenuItem = ({ title, imageUrl, history, linkUrl, match }) => (
   <div
     className={`menu-item`}
-    onClick={() => history.push('${match.url}${linkUrl}')}>
+    onClick={() => history.push(`${match.url}${linkUrl}`)}
+  >
     <div
       className='background-image'
       style={{
@@ -15,7 +16,7 @@ const MenuItem = ({ title, imageUrl, history, linkUrl }) => (
     />
     <div className='content'>
       <h1 className='title'>{title.toUpperCase()}</h1>
-      <span className='subtitle' >SHOP NOW</span>
+      <span className='subtitle'>SHOP NOW</span>
     </div>
   </div>
 );

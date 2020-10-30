@@ -4,8 +4,6 @@ import MenuItem from '../menu-item/menu-item.component'
 
 import './directory.styles.scss';
 
-import Stamp from '../../images/nara.png';
-import Wreath from '../../images/wreath.png';
 
 class Directory extends React.Component {
   constructor(){
@@ -14,13 +12,13 @@ class Directory extends React.Component {
     this.state = {
       sections: [{
         title: 'stamps',
-        imageUrl: Stamp,
+        imageUrl: 'https://i.ibb.co/2gLm5Nv/nara.jpg',
         id: 1,
         linkUrl: 'stamps'
       },
       {
-        title: 'wreath',
-        imageUrl: Wreath,
+        title: 'wreaths',
+        imageUrl: 'https://i.ibb.co/Sfvz9Rk/wreath.jpg',
         id: 2,
         linkUrl: 'wreaths'
       }]
@@ -33,7 +31,7 @@ class Directory extends React.Component {
           <MenuItem key={id} {...otherSectionProps} />
         ))}
       </div>
-    )
+    );
   }
 }
 
