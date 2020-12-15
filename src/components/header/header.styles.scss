@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Quicksand&display=swap');
+
 .header {
     height: 70px;
     width: 100%;
@@ -10,6 +12,16 @@
         width: 70px;
         padding: 25px;
     }
+
+    .header-title {
+        position: absolute;
+        top: 35px;
+        left: 130px;
+        font-family: 'Quicksand', sans-serif;
+        font-size: 30px;
+        font-weight: 700;
+        word-spacing: 3px;
+    }
   
     .options {
         width: 50%;
@@ -19,7 +31,9 @@
         justify-content: flex-end;
     
         .option {
+            font-size: 16px;
             padding: 10px 15px;
+            cursor: pointer;
         }
     }
 }
