@@ -1,25 +1,24 @@
 # React_E-commerce
+This is an E-commerce application similar to Shopify using React, Redux, React Hooks, React Suspense, React Router, GraphQL, Context API, Firebase, Redux-Saga, Stripe 
 
-What I'll learn
-* Build enterprise level React applications and deploy to production
-* Learn to build reactive, performant, large scale applications like a senior developer
-* Learn the latest features in React including Hooks, Context API, Suspense, React Lazy + more
-* Master the latest ecosystem of a React Developer from scratch
-* Become the top 10% ReactJS Developer
-* Using GraphQL as a React Developer
-* Use Redux, Redux Thunk and Redux Saga in your applications
-* Learn to compare tradeoffs when it comes to different state management
-* Set up authentication and user accounts
-* Use Firebase to build full stack applications
-* Learn to lead React projects by making good architecture decisions and helping others on your team
-* Master React Design Patterns
-* Learn CSS in JS with styled-components
-* Routing with React Router
-* Converting apps to Progressive Web Apps
-* Testing your application with Jest, Enzyme and snapshot testing
-* Handling online payments with Stripe API
-* Using the latest ES6/ES7/ES8/ES9/ES10 JavaScript to write clean code
+## Features
+- [x] A landing page with quick peek page where 2 products of each category are on display.
+- [x] A page with Sign-in and Sign-out components.
+- [x] Firebase for user authentication, also enabled google sign in authentication.
+- [x] All form-related fields are made using reusable components.
+- [ ] Add items to Cart
+- [ ] Remove item/items from cart
+- [ ] Payment with Stripe API
 
+## Technology
+- [x] React
+- [x] SASS
+- [x] Database - Firebase
+- [x] Authentication - Firebase
+- [ ] Redux for managing local state
+- [ ] Online Payment Processing - Stripe
+- [ ] React Hooks
+- [ ] GraphQL - as a React Developer
 
 ## Available Scripts
 
